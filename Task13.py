@@ -1,0 +1,5 @@
+text = input("Zadej Text:" )
+upper = (text == text.upper())
+lower = (text == text.lower())
+print(f"Vložený text je velkými písmeny: {upper}")
+print(f"Vložený text je malými písmeny: {lower}")
