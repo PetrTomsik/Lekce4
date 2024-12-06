@@ -17,3 +17,13 @@ print(f"v {text} je na kazdy druhy zank {text[0:delka:2]}")
 print(f"{text} a obracený text je  {text[::-1]}")
 
 
+
+
+
+text1 = "qsxht!trfecdtcbgřáýčerdxdpsěš d21rřcřetčěpe**u?rsS"
+delka2 = len(text1)
+print(f"Ignorujte prvních pět znaků {text1[6:delka2]}")
+print(f"Otočte řetězec {text1[::-1]}")
+print(f"Vypište každý čtvrtý znak{text[0:delka2:4]}")
+
+
